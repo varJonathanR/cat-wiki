@@ -1,1 +1,1 @@
-Full Stack project in progress!
+Full Stack project in progress
