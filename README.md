@@ -6,11 +6,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://}">
+    <a href="https://catwiki-varjonathanr.vercel.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://">
+    <a href="https://legacy.devchallenges.io/solutions/zFQs88NjQbUsQIFviTg8">
       Solution
     </a>
     <span> | </span>
