@@ -32,7 +32,7 @@
 
 ## Overview
 
-![CatWiki preview]()
+![CatWiki preview](https://github.com/varJonathanR/cat-wiki/blob/main/public/cat-wiki_preview.png)
 
 > [View this repo as if in a code editor](https://github.dev/varJonathanR/cat-wiki)
 
