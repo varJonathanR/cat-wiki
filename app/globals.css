@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    color: #291507;
+}
+
+p {
+    text-wrap: pretty;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+#HeroImage {
+    background-image: url("./assets/HeroImagelg.webp");
+    aspect-ratio: 1/1;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.stats {
+    & p {
+        font-size: .8rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    h3 {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .stats {
+        & p {
+            font-size: 1rem;
+        }
+    }
+}
