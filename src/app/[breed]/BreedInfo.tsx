@@ -1,7 +1,6 @@
 import Image from 'next/image'
-import Stats from '@/[breed]/Stats'
+import Stats from '@/app/[breed]/Stats'
 import { BreedData } from '@/utils/breedTypes'
-import cat1 from "@/assets/image2.webp"
 
 interface Props {
     breedData: BreedData | null;

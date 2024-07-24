@@ -1,8 +1,8 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import BreedInfo from '@/[breed]/BreedInfo'
-import Gallery from '@/[breed]/Gallery'
+import BreedInfo from '@/app/[breed]/BreedInfo'
+import Gallery from '@/app/[breed]/Gallery'
 import { BreedData } from '@/utils/breedTypes'
 import ContentLoader from '@/components/loaders/ContentLoader'
 

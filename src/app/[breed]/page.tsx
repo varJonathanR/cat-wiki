@@ -2,9 +2,9 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Footer from '@/components/Footer'
 import Nav from '@/components/Nav'
-import RootLayout from '@/layout'
+import RootLayout from '@/app/layout'
 import Arrow from '@/assets/Arrow.svg'
-import FetchData from './FetchData'
+import FetchData from '@/app/[breed]/FetchData'
 
 export default function Breed({ params }: { params: { breed: string } }) {
     const breed = params.breed

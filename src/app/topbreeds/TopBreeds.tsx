@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
-import TopBreed from '@/topbreeds/TopBreed'
+import TopBreed from '@/app/topbreeds/TopBreed'
 import { BreedPrevData } from '@/utils/breedTypes'
 import ContentLoaderPrev from '@/components/loaders/ContentLoaderPrev'
 

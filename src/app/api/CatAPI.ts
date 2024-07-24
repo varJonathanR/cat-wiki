@@ -1,5 +1,5 @@
 import type { AxiosResponse } from "axios";
-import axios from "@/api/axios"
+import axios from "@/app/api/axios"
 
 export const getTopBreeds = async (): Promise<AxiosResponse> => axios.get("/breeds?limit=10&order=desc");
 export const all = async (): Promise<AxiosResponse> => axios.get("/breeds");

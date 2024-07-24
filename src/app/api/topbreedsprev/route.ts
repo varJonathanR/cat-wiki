@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { getTopBreedsPrev } from "@/api/CatAPI";
+import { getTopBreedsPrev } from "@/app/api/CatAPI";
 import { FullBreedData } from "@/utils/breedTypes";
 
 export async function GET() {

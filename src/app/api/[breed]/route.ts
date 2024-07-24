@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { getBreedById, getBreedImgs } from "../CatAPI";
+import { getBreedById, getBreedImgs } from "@/app/api/CatAPI";
 
 export async function GET(req: Request, { params }: { params: { breed: string } }) {
     try {

@@ -1,4 +1,4 @@
-import StatBar from '@/[breed]/StatBar'
+import StatBar from '@/app/[breed]/StatBar'
 
 interface Props {
     temperament: string
